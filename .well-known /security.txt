@@ -1,0 +1,8 @@
+# Enables Cross-Origin Isolation and SharedArrayBuffer on GitHub Pages
+# See https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy
+# and https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer
+# for more information.
+
+Feature-Policy: cross-origin-isolation 'self'; sync-xhr 'self'; microphone 'none'; camera 'none'
+Cross-Origin-Opener-Policy: same-origin
+Cross-Origin-Embedder-Policy: require-corp
